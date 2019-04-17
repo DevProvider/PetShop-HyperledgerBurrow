@@ -3,6 +3,8 @@ This is an example project that is running EVM. A solidy contract has been writt
 
 The run the ethereum Petshop example on Hyplerger borrow. Follow the below documentation.
 
+**Make sure to run all snak commands in the Petshop-HyperledgerBurrow' Directory.**
+
 ## Reqirements.
 * Git
 * Nodejs
@@ -100,8 +102,6 @@ Just change the **R** to capital and it will fix the error. type
 ```$ snak call Adoption getAdopters``` 
 
 and you should get the Adopters.
-
-**Make sure to run all snak commands in the Petshop-HyperledgerBurrow' Directory.**
 
 
 # Running the Blockchain with Fronend GUI.
