@@ -118,6 +118,13 @@ Enjoy the application.
 
 ![Petshop GUI](/petshop.png)
 
+## Empty the blockchain.
+Inorder to empty the blockchain you have to compile and migrate your smart contract again to the blockchain.
+
+```$ snak compile```
+
+```$ snak migrate```
+
 ## Interacting with Blockchain using Snak.
 
 You can interact with your Hyperledger Burrow blockchain using snak by using the following commands. 
