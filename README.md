@@ -79,7 +79,7 @@ This is a default call that will give you all the address in the blockchain.
 
 ## Handle an Error
 
-if By any change when you call $ snak call Adoption getAdopters and it return with an error saying TypeError: cannot read the propoerty 'toUpperCase' of undefined.
+if By any change when you call **$ snak call Adoption getAdopters** and it return with an error saying **TypeError: cannot read the propoerty 'toUpperCase' of undefined.**
 
 then open a new terminal.
 
