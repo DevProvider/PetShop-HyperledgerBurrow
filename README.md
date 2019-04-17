@@ -3,13 +3,13 @@ This is an example project that is running EVM. A solidy contract has been writt
 
 The run the ethereum Petshop example on Hyplerger borrow. Follow the below documentation.
 
-# Reqirements.
-Git
-Nodejs
+## Reqirements.
+*Git
+*Nodejs
 
-# Installations
+## Installations
 To install git 
-$ sudo apt install git 
+'<$ sudo apt install git>' 
 
 then to install nodejs
 $ sudp apt install curl
