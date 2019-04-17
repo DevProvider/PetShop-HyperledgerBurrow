@@ -14,11 +14,17 @@ var addresses = [0];
 
 io.on('connection', function (socket) {
     
-    io.emit('adopt', addresses);
+    io.emit('adopted', addresses);
 
     socket.on('adopt', function (msg) {
-        addresses.push(msg);
-        io.emit('adopt', addresses);
-        console.log(addresses);
+    	if (addresses.indexOf(parseInt(msg)) < 0){
+        	addresses.push(msg);
+        	io.emit('adopted', addresses);
+    	}
+    	console.log(addresses);
     });
 });
+
+io.on('disconnect', function(socket) {
+	console.log('socket disconeceted');
+})
