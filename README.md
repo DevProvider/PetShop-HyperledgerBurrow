@@ -116,6 +116,8 @@ Go to ```http://localhost:3000```
 
 Enjoy the application.
 
+![Petshop GUI](/petshop.png)
+
 ## Interacting with Blockchain using Snak.
 
 You can interact with your Hyperledger Burrow blockchain using snak by using the following commands. 
