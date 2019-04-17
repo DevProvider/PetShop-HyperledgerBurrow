@@ -27,7 +27,8 @@ io.on('connection', function (socket) {
 				{
 					addresses.push(i);
 				}
-			}		
+			}
+			console.log(stdout);		
 		}
 
 		else{
@@ -57,8 +58,8 @@ io.on('connection', function (socket) {
 							{
 								addresses.push(i);
 							}
-						}	
-
+						}
+						console.log(stdout);
 						io.emit('adopted', addresses);
 	
 					}
